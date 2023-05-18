@@ -1,0 +1,48 @@
+/* header h1 {
+    color: #1313a3;
+} */
+
+header h1 > span {
+    color: #a89f9f;
+}
+
+main #buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+main .material-symbols-outlined {
+    font-size: 70px;
+}
+
+main #buttons > a {
+    color: #a89f9f;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+main #buttons > a:hover {
+    color: #1313a3;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin: 0 20px 0 20px;
+}
+
+main section h2 {
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+main section p {
+    line-height: 2em;
+}
