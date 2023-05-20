@@ -15,6 +15,7 @@ main img {
     width: 65vw;
     height: 50vh;
     background-position: center bottom;
+    background-size: cover;
     margin-bottom: 50px;
     border-radius: 30px;
 }
@@ -29,7 +30,7 @@ main section {
 }
 
 main section h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 1.2em;
     line-height: 1.5em;
 }
@@ -52,9 +53,10 @@ main .material-symbols-outlined {
     font-size: 50px;
 }
 
-main #buttons > a {
+main #buttons a {
     color: #a89f9f;
     list-style-type: none;
+    text-decoration: none;
     cursor: pointer;
 }
 
