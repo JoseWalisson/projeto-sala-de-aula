@@ -1,3 +1,13 @@
+#carregamento {
+    width: 50%;
+    background-color: #a89f9f;
+}
+
+#carregamento p {
+    font-size: 30px;
+    color: #ffffff;
+}
+
 main #lista {
     width: 70vw;
     display: flex;
