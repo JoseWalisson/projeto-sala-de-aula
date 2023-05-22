@@ -1,4 +1,16 @@
+@keyframes carregamento {
+    from {
+        width: 0vw;
+    }
+
+    to {
+        width: 66vw;
+    }
+}
+
+
 #carregamento {
+    animation-duration: 1.5s;
     width: 66vw;
     background-color: #a89f9f;
 }

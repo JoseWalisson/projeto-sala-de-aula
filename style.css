@@ -37,6 +37,7 @@ main {
 }
 
 main h2 {
+    text-shadow: 5px 5px 5px #00000018;
     font-size: 1em;
     color: #b90b0b;
 }

@@ -1,3 +1,13 @@
+@keyframes carregamento {
+    from {
+        width: 0vw;
+    }
+
+    to {
+        width: 50vw;
+    }
+}
+
 #carregamento {
     width: 50vw;
     background-color: #a89f9f;
