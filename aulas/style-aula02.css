@@ -14,6 +14,25 @@
 }
 
 #carregamento p {
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #carregamento p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #carregamento p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #carregamento p {
+        font-size: 30px;
+    }
 }

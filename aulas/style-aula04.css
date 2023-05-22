@@ -14,7 +14,7 @@
 }
 
 #carregamento p {
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
 }
 
@@ -46,16 +46,28 @@ main #lista h3 {
     main #lista li {
         font-size: 1em;
     }
+
+    #carregamento p {
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     main #lista li {
         font-size: 1em;
     }
+
+    #carregamento p {
+        font-size: 30px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     main #lista li {
         font-size: 1em;
+    }
+
+    #carregamento p {
+        font-size: 30px;
     }
 }
