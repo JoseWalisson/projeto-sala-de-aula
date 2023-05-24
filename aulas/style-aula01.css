@@ -36,6 +36,7 @@ main img {
     background-size: cover;
     margin-bottom: 50px;
     border-radius: 30px;
+    box-shadow: 5px 5px 5px #00000054;
 }
 
 main section {
