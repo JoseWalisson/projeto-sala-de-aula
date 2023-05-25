@@ -92,6 +92,19 @@ footer span {
     font-weight: bold;
 }
 
+footer span a {
+    text-decoration: none;
+    color: #0b810b;
+    padding: 5px;
+    background-color: #e4e0e0;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+footer span a:hover {
+    background-color: #c9c2c2;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
     header h1 {
